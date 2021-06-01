@@ -1,4 +1,5 @@
-FROM node:14 AS builder
+# FROM node:14 AS builder
+FROM node:15.2.0 AS builder
 LABEL maintainer="kingofcramers.dev@gmail.com"
 WORKDIR /app
 
